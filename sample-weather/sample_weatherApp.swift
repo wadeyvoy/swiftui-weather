@@ -15,11 +15,4 @@ struct sample_weatherApp: App {
         }
     }
 }
-struct sample_weatherApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
 
