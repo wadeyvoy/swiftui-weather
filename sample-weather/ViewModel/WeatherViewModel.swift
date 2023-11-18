@@ -14,12 +14,6 @@ class WeatherViewModel: ObservableObject{
     var city: String = ""
     @Published var weather = WeatherResponse()
     @Published var loading = false
-    var temeture: String{
-        get{
-            guard let temp = self.weather.main?.temp else {return ""}
-            return String(format: "%.0f", temp)
-        }
-    }
     
     var isCloude: String{
         get{
