@@ -21,6 +21,10 @@ struct Weather: Decodable{
     var temp: Double?
 }
 
+struct Weather: Decodable{
+    var temp: Double?
+}
+
 struct WeatherModel: Decodable{
     var main: String?
 }
